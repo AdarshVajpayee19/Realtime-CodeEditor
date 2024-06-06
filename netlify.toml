@@ -36,3 +36,9 @@ processes = []
     interval = "15s"
     restart_limit = 0
     timeout = "2s"
+
+[[redirects]]
+  from = "/*"
+  to = "editor/public/index.html"
+  status = 200
+  
